@@ -47,6 +47,9 @@ public class ExecuteQuery01 {
 
         conn.close();
         st.close();
+        resultSet1.close();
+        resultSet3.close();
+        resultSet2.close();
 
 
 
