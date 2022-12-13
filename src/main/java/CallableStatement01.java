@@ -83,6 +83,10 @@ SQL'de ise data return ediyorsa "function" denir. Return yapmiyorsa "procedure" 
         */
         //6. Adım: Sonucu çağırmak için return data type tipine göre
         System.out.printf("%.2f",cst2.getBigDecimal(1));
+        conn.close();
+        st.close();
+        cst1.close();
+        cst2.close();
 
 
 
